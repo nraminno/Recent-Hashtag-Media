@@ -417,7 +417,6 @@ export default function Home() {
                     <a target="_blank" href={i.permalink}>
                       <Image
                         src={i.media_url}
-                        className="dark:invert"
                         width={400}
                         height={400}
                         style={{
@@ -455,7 +454,6 @@ export default function Home() {
                       ) : (
                         <Image
                           src={"/Image_not_available.png"}
-                          className="dark:invert"
                           width={400}
                           height={400}
                           style={{
@@ -493,7 +491,6 @@ export default function Home() {
                     <a target="_blank" href={i.permalink}>
                       <Image
                         src={i.media_url}
-                        className="dark:invert"
                         width={400}
                         height={400}
                         style={{
